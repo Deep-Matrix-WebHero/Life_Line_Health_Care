@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Cardiac Department",
+        "description": "A cardiac care unit (CCU) is a specialized hospital ward designed to treat people with serious or acute heart problems. People who undergo heart surgery also are placed in the CCU as they recover.",
+        "img": "https://i.ibb.co/cyFkY6c/car2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Emergency Department",
+        "description": "The department of a hospital responsible for the provision of medical and surgical care to patients arriving at the hospital in need of immediate care.",
+        "img": "https://i.ibb.co/KVw97CR/emergency.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Surgery Department",
+        "description": "Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury.",
+        "img": "https://i.ibb.co/N7SCk1Y/Surgery2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Diabetes Department",
+        "description": "A diabetes specialist is called an endocrinologist. Endocrinologists specialize in the glands of the endocrine (hormone) system. The pancreas is the gland involved in diabetes. The pancreas produces insulin.",
+        "img": "https://i.ibb.co/f0qQPDZ/diabetes.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Nephrology Department",
+        "description": "Nephrology concerns the diagnosis and treatment of kidney diseases,  and the care of those requiring renal replacement therapy.",
+        "img": "https://i.ibb.co/3mmnDbg/Nephrology2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Pharmacy Department",
+        "description": "It is designed to produce the skilled and efficient professionals to manage pharmaceutical industries, hospital pharmacy, community pharmacy services and other government body related to health services and research organizations.",
+        "img": "https://i.ibb.co/qjkhrqF/pharmacy-2.jpg"
+    }
+]
