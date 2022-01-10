@@ -14,7 +14,7 @@ const Doctors = () => {
         <h1 className="text-center text-info m-5">Our Doctors</h1>
       </div>
       <div className="doctors-container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
             <div className="card">
               <img src={cardilogy} className="doctor-image" alt="..." />

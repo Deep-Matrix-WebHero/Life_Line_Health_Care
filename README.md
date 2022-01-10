@@ -1,6 +1,4 @@
-﻿# ataur10
-
-#live link:https://reverent-pare-b1d566.netlify.app/
+﻿[livelink:](https://friendly-hopper-99d58d.netlify.app/)
 
 # project Name : Life Line Health Care
 

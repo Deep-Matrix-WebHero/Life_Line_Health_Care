@@ -21,11 +21,12 @@ const useFirebase = () => {
 
   const auth = getAuth();
 
-  const registerNewUser = (email, password) => {
+  const registerNewUser = (name, email, password) => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         const user = result.user;
         console.log(user);
+        setUserName(name);
         setError("");
         setUser();
         setName("");
@@ -35,8 +36,20 @@ const useFirebase = () => {
       });
   };
 
-  const setUserName = () => {
-    updateProfile(auth.currentUser, {displayName: name}).then((result) => {});
+  const setUserName = (name) => {
+    // updateProfile(auth.currentUser, {displayName: name}).then((result) => {});
+    updateProfile(auth.currentUser, {
+      displayName: name,
+      // photoURL: "https://example.com/jane-q-user/profile.jpg",
+    })
+      .then((result) => {
+        const newUser = result.user.name;
+        console.log(newUser);
+        setName("");
+      })
+      .catch((error) => {
+        console.log(error?.message);
+      });
   };
 
   const signInUsingEmailPassword = (email, password) => {
@@ -89,6 +102,7 @@ const useFirebase = () => {
     logOut,
     signInUsingEmailPassword,
     registerNewUser,
+    setUserName,
   };
 };
 

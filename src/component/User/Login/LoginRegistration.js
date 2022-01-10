@@ -40,7 +40,7 @@ const LoginRegistration = () => {
 
     isLogin
       ? signInUsingEmailPassword(email, password)
-      : registerNewUser(email, password);
+      : registerNewUser(name, email, password);
   };
 
   return (
